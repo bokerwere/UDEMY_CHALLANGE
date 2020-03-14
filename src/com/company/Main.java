@@ -8,7 +8,7 @@ private static Scanner scanner=new Scanner(System.in);
     public static int[] getInteger( int number){
       System.out.println ( "enter "+ number+" integer value.\r");
     int[] value= new int [number];
-
+System.out.println (  );
 
     for(int i=0;i<value.length;i++){
       value [i]= scanner.nextInt();
